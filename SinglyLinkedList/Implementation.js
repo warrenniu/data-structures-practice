@@ -54,9 +54,9 @@ a.setNext(b);
 b.setNext(c);
 c.setNext(d); // [1]->[2]->[3]->[4]
 
-let z = newNode(10);
-let y = newNode(9);
-z.setPrev(y);
+// let z = newNode(10);
+// let y = newNode(9);
+// z.setPrev(y);
 
 // function swapPairs(node) {
 //   // node.value(); // gives value
