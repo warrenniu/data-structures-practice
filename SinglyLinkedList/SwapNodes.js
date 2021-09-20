@@ -49,12 +49,10 @@ function swapPairs(node) {
     //1st iteration nextNode -> b; next -> a
     //2nd iteration nextNode -> d; next -> c
     nextNode.setNext(currentNode);
-    console.log("After swap");
     printSwapList(nextNode);
 
     //1st iteration currentNode -> c; next -> d
     //2nd iteration currentNode -> null; next -> null
-    console.log("value of currentNode.next", currentNode.next());
     if (secondNode) {
       secondNode.setNext(nextNode);
     }
